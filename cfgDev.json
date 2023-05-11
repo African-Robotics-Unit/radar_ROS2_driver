@@ -1,0 +1,90 @@
+{
+   "dfeDataOutputMode": {
+      "frmMode": 1
+   },
+   "channelCfg": {
+      "rxChannelEn": 15,
+      "txChannelEn": 7,
+      "casMode": 0
+   },
+   "adcCfg": {
+      "numADCBits": 2,
+      "adcOutputFmt": 1
+   },
+   "adcbufCfg": {
+      "subFrameIdx": -1,
+      "adcOutputFmt": 0,
+      "SampleSwap": 1,
+      "chanInterleave": 1,
+      "chirpThreshold": 1
+   },
+   "profileCfg": {
+      "profileId"        : 0, 
+      "startFreq"        : 77,        
+      "idleTime"         : 2,         
+      "adcStartTime"     : 7,         
+      "rampEndTime"      : 57.14,        
+      "txOutPower"       : 0,         
+      "txPhaseShifter"   : 0, 
+      "freqSlopeConst"   : 70,      
+      "txStartTime"      : 1,         
+      "numAdcSamples"    : 128,       
+      "digOutSampleRate" : 3000,       
+      "hpfCornerFreq1"   : 0,         
+      "hpfCornerFreq2"   : 0,         
+      "rxGain"           : 30
+   },
+   "chirpCfg_0": {
+      "chirpStartIndex": 0,
+      "chirpEndIndex": 0,
+      "profileId": 0,
+      "startFreqVar": 0,
+      "freqSlopeVar": 0,
+      "idleTimeVar": 0,
+      "ADCStartTimeVar": 0,
+      "chirpAntennaEnMask": 1
+   },
+   "chirpCfg_1": {
+      "chirpStartIndex": 1,
+      "chirpEndIndex": 1,
+      "profileId": 0,
+      "startFreqVar": 0,
+      "freqSlopeVar": 0,
+      "idleTimeVar": 0,
+      "ADCStartTimeVar": 0,
+      "chirpAntennaEnMask": 2
+   },
+   "chirpCfg_2": {
+      "chirpStartIndex": 2,
+      "chirpEndIndex": 2,
+      "profileId": 0,
+      "startFreqVar": 0,
+      "freqSlopeVar": 0,
+      "idleTimeVar": 0,
+      "ADCStartTimeVar": 0,
+      "chirpAntennaEnMask": 4
+   },
+   "frameCfg": {
+      "chirpStartIndex": 0,
+      "chirpEndIndex": 2,
+      "numChirps": 128,
+      "numFrames": 0,
+      "framePeriod": 100,
+      "triggerSelect": 1,
+      "frameTriggerDelay": 0
+   },
+   "lowPower": {
+      "dontCare": 0,
+      "adcMode": 0
+   },
+   "lvdsStreamCfg": {
+      "subFrameIdx ": -1,
+      "enableHeader": 0,
+      "dataFmt": 1,
+      "enableSW": 0
+   },
+   "calibMonCfg": {
+      "calibMonTimeUnit": 0,
+      "calibPeriodicity": 1
+   }
+}

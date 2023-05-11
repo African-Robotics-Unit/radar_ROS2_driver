@@ -1,0 +1,4 @@
+/**:
+   ros__parameters:
+      run_cfg_file_path: '/home/orin/m2s2_ws/src/radar_ROS2_driver/cfgRun.json'
+      dev_cfg_file_path: '/home/orin/m2s2_ws/src/radar_ROS2_driver/cfgDev.json'

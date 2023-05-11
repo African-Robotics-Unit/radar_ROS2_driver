@@ -1,0 +1,43 @@
+{
+    "VARIANT"               : "AWR1843",
+    "COMMAND_PORT"          : "/dev/ttyACM0",
+    "FRAME_BUFFER_MLT"      : 3,
+    "UDP_BUFFER_MLT"        : 4,
+    "DCA_DATA_FORMAT_MODE"  : 3,
+    "DCA_LVDS_LANE_MODE"    : 2,
+    
+    "PROC_TYPE"         : "RANGE_DOPPLER",    
+    "PLOT_ORIENTATION"  : "HORIZONTAL",
+    "PLOT_SCALE_X"      : 1,
+    "PLOT_SCALE_Y"      : 1,
+
+    "CLUTTER_CONFIG" : {
+        "NUM_FRAMES"     : 100
+    },
+
+    "ARD_CONFIG" : {
+        "RANGE_WINDOW_TYPE"     : "HANNING",
+        "DOPPLER_WINDOW_TYPE"   : "HANNING",
+        "RNG_PAD_FACTOR"        : 5,
+        "DOP_PAD_FACTOR"        : 5
+    },
+
+    "CFAR_CONFIG" : {
+        "RNG_GUARD_CELLS"       : 1,
+        "DOP_GUARD_CELLS"       : 2,
+        "RNG_TRAINING_CELLS"    : 1,
+        "DOP_TRAINING_CELLS"    : 2,
+        "PFA"                   : 10e-2,
+        "THRESHOLD"             : 0  
+    },
+
+    "AZM_CONFIG" : {
+        "FOV_PHYSICAL"  : 180,
+        "FOV_PROCESS"   : 100,
+        "FFT_POINTS"    : 256
+    },
+    "ELV_CONFIG" : {
+        "WINDOW_TYPE"   : "BLACKMAN",
+        "FFT_POINTS"    : 128
+    }
+}
